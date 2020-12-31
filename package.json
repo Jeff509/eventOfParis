@@ -1,22 +1,15 @@
 {
-  "name": "@so-xzen/my-react",
+  "name": "@so-xzen/eventOfParis",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --port 6500",
-    "build": "webpack --mode production"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xzen/my-react.git"
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "fix": "webpack-dev-server --mode development --open --fix"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/xzen/my-react/issues"
-  },
-  "homepage": "https://github.com/xzen/my-react#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
@@ -40,10 +33,12 @@
     "webpack-dev-server": "^3.1.8"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
-    "react-bootstrap": "^1.3.0",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^16.5.2",
     "react-redux": "^7.1.3",
     "react-router-dom": "^5.0.1",
